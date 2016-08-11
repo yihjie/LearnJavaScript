@@ -1,0 +1,40 @@
+#!/usr/bin/node
+var num = 0;
+num = num + 2;
+console.log(num);
+num = num * 3;
+console.log(num);
+num = num / 2;
+console.log(num);
+num++;
+console.log(num);
+num--;
+console.log(num);
+num += 1;
+console.log(num);
+num -= 2;
+console.log(num);
+num *= 3;
+console.log(num);
+num /= 2 ;
+console.log(num);
+num %= 3 ;
+console.log('num = ' + num);
+
+console.log('num == 1 : ' + (num == 1));
+console.log('num === 1 : ' + ( num === 1));
+console.log('num != 1 : ' + ( num != 1));
+console.log('num > 1 : ' + (num > 1));
+console.log('num >= 1 : ' + (num >= 1));
+console.log('num <= 1 : ' + (num <= 1));
+console.log('true && false : ' + (true && false));
+console.log('true || false : ' + (true || false));
+console.log('!true : ' + (!true));
+console.log('-----------------------------------------------------');
+
+console.log('5 & 1 : ' + (5 & 1));
+console.log('5 | 1 : ' + (5 | 1));
+console.log('~5 : ' + (~5));
+console.log('5 ^ 1 : ' + (5 ^ 1));
+console.log('5 << 1 : ' + (5 << 1));
+console.log('5 >> 1 : ' + (5 >> 1));
